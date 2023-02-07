@@ -1,0 +1,26 @@
+.sky-blue {
+  background-color: skyblue !important;
+}
+
+.green {
+  background-color: greenyellow !important;
+}
+
+.dark {
+  background-color: darkolivegreen !important;
+}
+.magenta {
+  background-color: magenta !important;
+}
+.yellow {
+  background-color: yellow !important;
+}
+
+.custom-control-label-now {
+  /* gap: 2px; */
+  width: 12px;
+  height: 12px;
+  display: block;
+  border-radius:2px ;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

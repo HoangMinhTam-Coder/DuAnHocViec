@@ -1,0 +1,146 @@
+<section class="page-header">
+  <div class="overly"></div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="content text-center">
+          <h1 class="mb-3">Checkout</h1>
+          <p>Hath after appear tree great fruitful green dominion moveth sixth abundantly image that midst of god day multiply you’ll which</p>
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb bg-transparent justify-content-center">
+            <li class="breadcrumb-item"><a routerLink="/">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Checkout</li>
+          </ol>
+        </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="page-wrapper">
+   <div class="checkout shopping">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-8 pr-5">
+              <div class="coupon-notice " data-toggle="modal" data-target="#coupon-modal">
+                   <div class="bg-light p-3">
+                       Have a coupon? <a routerLink="/checkout" class="showcoupon" >Click here to enter your code</a>
+                   </div>
+               </div>
+
+               <div class="billing-details mt-5">
+                  <h4 class="mb-4">Billing Details</h4>
+                  <form class="checkout-form" [formGroup]="checkoutForm" >
+                     <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group mb-4">
+                              <label for="first_name">Name</label>
+                              <input type="text" class="form-control" id="first_name" value="{{name}}" disabled>
+                           </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-group mb-4">
+                              <label for="company_name">Address(*)</label>
+                              <input type="text" class="form-control" id="company_name" placeholder="{{address}}" formControlName="address">
+                           </div>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="form-group mb-4">
+                              <label for="first_name">Phone Number(*)</label>
+                              <input type="text" class="form-control" id="street" placeholder="{{phone}}" formControlName="phonenumber">
+                           </div>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="form-group mb-4">
+                              <label for="first_name">Email address </label>
+                              <input type="text" class="form-control" id="email" value="{{email}}" disabled>
+                           </div>
+                        </div>
+                     </div>
+                  </form>
+                  <button (click)="handlerCheckout(checkoutForm.value)" class="btn btn-main btn-small">Place Order</button>
+               </div>
+            </div>
+
+            <!-- Order sidebar Summery -->
+            <div class="col-md-6 col-lg-4">
+               <div class="product-checkout-details mt-5 mt-lg-0">
+                     <h4 class="mb-4 border-bottom pb-4">Order Summary</h4>
+
+                     <div class="media product-card d-flex justify-content-between" *ngFor="let item of (cartEntries$ | async)">
+                        <img src="{{item.cart.products.image}}" alt="{{item.cart.products.name}}" width="100" height="100">
+                        <div class="media-body text-right">
+                          <p>{{item.cart.products.name}}</p>
+                           <p class="h5">{{item.count}} x {{item.cart.products.price | currency:'VND':'VND': '':'vi' }}</p>
+                        </div>
+                     </div>
+
+                     <ul class="summary-prices list-unstyled mb-4">
+                        <li class="d-flex justify-content-between">
+                           <span >Subtotal:</span>
+                           <span class="h5">{{totalPrice$ | async | currency:'VND':'VND': '':'vi' }}</span>
+                        </li>
+                        <li class="d-flex justify-content-between">
+                           <span >Shipping:</span>
+                           <span class="h5">{{ 20000  | currency:'VND':'VND': '':'vi' }}</span>
+                        </li>
+                        <li class="d-flex justify-content-between">
+                           <span>Total</span>
+                           <span class="h5">{{ (totalPrice$ | async)! + 20000 | currency:'VND':'VND': '':'vi'}}</span>
+                        </li>
+                     </ul>
+
+                     <form action="#">
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                            Direct bank transfer
+                          </label>
+
+                          <div class="alert alert-secondary mt-3" role="alert">
+                             Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.
+                           </div>
+                        </div>
+
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                          <label class="form-check-label" for="exampleRadios2">
+                             Check payments
+                          </label>
+                        </div>
+
+                         <div class="form-check mb-3">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck3">
+                            <label class="form-check-label" for="exampleCheck3">I have read and agree to the website terms and conditions *</label>
+                          </div>
+                     </form>
+
+                     <div class="info mt-4 border-top pt-4 mb-5">
+                        Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="#">privacy policy</a>.
+                     </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+   <!-- Modal -->
+   <div class="modal fade" id="coupon-modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content py-5">
+            <div class="modal-body">
+               <form>
+                  <div class="form-group">
+                     <input class="form-control" type="text" placeholder="Enter Coupon Code">
+                  </div>
+                  <button type="button" class="btn btn-main btn-small" data-dismiss="modal">Apply Coupon</button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>

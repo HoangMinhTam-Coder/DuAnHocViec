@@ -1,0 +1,42 @@
+<div class="account section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="login-form border p-5">
+          <div class="text-center heading">
+            <h2 class="mb-2">Login <span style="color: #FB5C42">Admin</span></h2>
+          </div>
+
+          <form action="#" [formGroup]="loginAdminForm" (ngSubmit)="loginAdmin(loginAdminForm.value)">
+            <div class="form-group mb-4">
+              <label for="#" >Enter email</label>
+              <input type="text" class="form-control" placeholder="Enter Email" formControlName="email" name="email">
+              <div *ngIf="la['email'].invalid && (la['email'].dirty || la['email'].touched)" class="text-danger">
+                <div *ngIf="la['email'].errors?.['email']">Email is Not Format.</div>
+                <div *ngIf="la['email'].errors?.['required']">Email is required..</div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="#">Enter Password</label>
+
+              <input type={{pass}} class="form-control" placeholder="Enter Password" name="password" formControlName="password">
+              <div *ngIf="la['password'].invalid && (la['password'].dirty || la['password'].touched)" class="text-danger">
+                <div *ngIf="la['password'].errors?.['required']">Password is required.</div>
+                <div *ngIf="la['password'].errors?.['minlength']">Minimum 2 character are required.</div>
+              </div>
+            </div>
+
+            <label class="switch mt-3 me-2">
+              <input type="checkbox" (change)="onCheckedBoxChange($event)">
+              <span class="slider round"></span>
+            </label>
+            <a class="float-right" style="color: black">Show password</a>
+
+            <button type="submit" class="btn btn-main mt-3 btn-block d-block w-25" >Login</button>
+            <pre>{{loginAdminForm.value | json}}</pre>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

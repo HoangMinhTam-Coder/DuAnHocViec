@@ -1,0 +1,678 @@
+{
+  "seller": [
+    {
+      "name": "sam sidhu",
+      "email": "sam@seller.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "peter",
+      "password": "abc@123",
+      "email": "peter@test.com",
+      "id": 3
+    },
+    {
+      "name": "bruce",
+      "password": "abc@123",
+      "email": "bruce@test.com",
+      "id": 4
+    },
+    {
+      "name": "anil",
+      "password": "abc123",
+      "email": "anil@test.com",
+      "id": 5
+    },
+    {
+      "name": "alena",
+      "password": "abc123",
+      "email": "alena@test.com",
+      "id": 6
+    },
+    {
+      "name": "sam",
+      "password": "abc@123",
+      "email": "sam@test.com",
+      "id": 7
+    },
+    {
+      "name": "bhasker",
+      "password": "abc@123",
+      "email": "bhasker@test.com",
+      "id": 8
+    },
+    {
+      "name": "sam sidhu",
+      "password": "abc@123",
+      "email": "sam@seller.com",
+      "id": 9
+    },
+    {
+      "email": "test@gmail.com",
+      "name": "Nam",
+      "password": "minhtam",
+      "id": 10
+    },
+    {
+      "name": "sam sidhu",
+      "password": "abc@123",
+      "email": "sam@seller.com",
+      "id": 11
+    },
+    {
+      "email": "taka@1223",
+      "name": "taka",
+      "password": "taka@123",
+      "id": 12
+    },
+    {
+      "name": "sam sidhu",
+      "password": "abc@123",
+      "email": "sam@seller.com",
+      "id": 13
+    },
+    {
+      "email": "kaka@gmail.com",
+      "name": "Nam",
+      "password": "abc123",
+      "id": 14
+    }
+  ],
+  "products": [
+    {
+      "name": "Váy ngắn",
+      "price": 550,
+      "category": "Skirt",
+      "color": "Black",
+      "description": "❗ Những lưu ý cần thiết để giữ độ bền về chất lượng và màu sắc:\n▪️ Giặt ở nhiệt độ bình thường, với đồ có màu tương tự.\n▪️ Hạn chế sử dụng máy sấy và ủi (nếu có) thì ở nhiệt độ thích hợp.\n▪️ Không sử dụng chất tẩy rửa mạnh.",
+      "image": "assets/images/vay1_rebg.png",
+      "image1": "assets/images/vay21_rebg.png",
+      "image2": "assets/images/28.jpg",
+      "id": 1,
+      "sale": true,
+      "price_sale": 500,
+      "size": "M"
+    },
+    {
+      "name": "Áo thu đông",
+      "price": 13000,
+      "category": "Jacket",
+      "color": "Green",
+      "description": "I.SHOP CAM KẾT\n\n- Sản phẩm Khoác lót lông cừu chất dù xuất dư xịn đét, form rộng giống mô tả 100%\n\n- Hình ảnh sản phẩm là ảnh thật, các hình hoàn toàn do shop tự thiết kế và chụp.\n\n- Kiểm tra  cẩn thận trước khi gói hàng giao cho Quý Khách\n\n- Hàng có sẵn, giao hàng ngay khi nhận được đơn \n\n- Hoàn tiền nếu sản phẩm không giống với mô tả\n\n- Chấp nhận đổi hàng khi size không vừa trong 3 ngày.\n\n\n\nII. HỖ TRỢ ĐỔI TRẢ THEO QUY ĐỊNH CỦA SHOP\n\n- Điều kiện áp dụng (trong vòng 3 ngày kể từ khi nhận sản phẩm) \n\n- Hàng hoá bị rách, in lỗi, bung chỉ, và các lỗi do vận chuyển hoặc do nhà sản xuất.\n\n1. Trường hợp được chấp nhận: \n\n- Hàng giao sai size khách đã đặt hàng \n\n- Giao thiếu hàng \n\n2. Trường hợp không đủ điều kiện áp dụng chính sách: \n\n- Quá 2 ngày kể từ khi Quý khách nhận hàng \n\n- Gửi lại hàng không đúng mẫu mã, không phải sản phẩm của Nice Clothes\n\n- Không thích, không hợp, đặt nhầm mã, nhầm màu,... ",
+      "image": "assets/images/aothudong1-rebg.png",
+      "image1": "assets/images/aothudong2-rebg.png",
+      "image2": "assets/images/aothudong3.jpg",
+      "id": 2,
+      "sale": false,
+      "price_sale": 13000,
+      "size": "M"
+    },
+    {
+      "name": "Quần bò nam",
+      "price": 1400,
+      "category": "Man' Jeans, Trousers",
+      "color": "Blue Gray",
+      "description": "👄  VỀ SẢN PHẨM:\n\n✅ Sản phẩm được đặt may riêng theo mẫu thiết kế của Tenji Store 3 shop tại tp HCM. \n✅ Quần jean nam với thiết kế mới thời trang hơn, mang lại sự tự tin tối đa cho người mặc trước những người xung quanh\n✅ Quần may bằng vải denim chất bò co dãn nên rất mềm và thoải mái khi mặc, đảm bảo sẽ không hề cảm thấy gò bó ngay cả khi di chuyển nhiều.\n✅ Dáng quần jean ống côn trẻ trung ôm body tạo nên form cực chuẩn cho người mặc túi quần lớn rất thuận tiện cho việc đựng smart phone hoặc ví cỡ bự.\n✅ Màu sắc chuẩn được nhuộm kỹ đến hai lần giúp hạn chế tối đa việc phai màu khi sử dụng.\n✅ Vài ảnh chụp cận cảnh để làm rõ thêm sự sắc nét của từng đường may, sớ vải.\n✅ Size: 28 đến 34",
+      "image": "assets/images/2.jpg",
+      "image1": "assets/images/quanjean_rebg.png",
+      "image2": "assets/images/2.jpg",
+      "id": 3,
+      "sale": true,
+      "price_sale": 1200,
+      "size": "M"
+    },
+    {
+      "name": "Áo giữu nhiệt nam",
+      "price": 3000,
+      "category": "Thermal Jacket",
+      "color": "Blue",
+      "description": "Áo len nam cổ lọ faviti chính là sản phẩm bán chạy nhất trong 5 năm qua. Áo len nam cổ lọ nhà mình được làm Bằng công nghệ kéo sợi và xử lý xơ hiện đại giúp chất liệu len lông cừu mềm mịn hơn hẳn dòng áo len khác trên thị trường và giữ ấm tốt nhất hiện nay. Chúng mình đã nghiên cứu để cho ra những màu áo len nam cổ lọ hot nhất hiện nay giúp anh chị em dễ dàng phối đồ khi đi chơi hay đi làm. \n\nĐây chắc chắn là item không thể thiếu trong tủ đồ của các bạn để có một mùa đông ấm áp",
+      "image": "assets/images/3.jpg",
+      "image1": "assets/images/1.jpg",
+      "image2": "assets/images/2.jpg",
+      "id": 4,
+      "sale": true,
+      "price_sale": 2500,
+      "size": "M"
+    },
+    {
+      "name": "Quần đùi nữ",
+      "price": 45000,
+      "category": "Jeans",
+      "color": "Black, White",
+      "description": "⚜️ THÔNG TIN SẢN PHẨM\n- Chất liệu: Vải umi thể thao dày dặn, chất co dãn thoải mái, mát mẻ\n- Form quần rộng vô cùng thoải mái\n- Gấu quần kiểu lai tưa, có thể cắt gấu lên tùy ý thích mặc dài hay ngắn để phù hợp với chiều cao từng người ạ.\n- Đường kim mũi chỉ cẩn thận, chắc chắn\n- Sản phẩm cắt chỉ rất tỉ mỉ, gần như không có chỉ thừa\n- Shop luôn bỏ sản phẩm ra kiểm tra lại trước khi đóng gói (gần như rất rất ít đơn vị khác làm công đoạn này)\nNên sản phẩm bạn nhận được gần như không có lỗi\n- Hình chi tiết sản phẩm Shop tự chụp.\n- Shop đặt SX và bán tại KHO nên có giá cả tốt nhất và ưu đãi nhất ạ 😘",
+      "image": "assets/images/quanduinu1-rebg.png",
+      "image1": "assets/images/quanduinu2-rebg.png",
+      "image2": "assets/images/quanduinu3.jpg",
+      "id": 5,
+      "sale": false,
+      "price_sale": 5000,
+      "size": "M"
+    },
+    {
+      "name": "Áo Bomber Nam",
+      "price": 129000,
+      "category": "T-Shirt",
+      "color": "Yellow",
+      "description": "* THÔNG TIN SẢN PHẨM\nÁo khoác nam lót lông 3 khoá chất vải gió tráng bạc chống nước, lót lông dày dặn\n\n* Tiếp nối sự thành công của mẫu áo gió nam lót lông 2021, mẫu áo lót lông nam năm nay được cải tiến tốt hơn. \nCải tiến về form áo đảm bảo rộng rãi, về khoá chất lượng, bền và chắc chắn, bên trong lót lông ấm ám, dày dặn.\n\n* Một sự khác biệt giữa mẫu năm nay so với mẫu cũ ở thiết kế vải gió tráng bạc chống nước, chống gió tuyệt đối . \nChất liệu lông của áo khoác nam lót lông được nhập khẩu trực tiếp, đảm bảo chất lượng và an toàn cho làn da của bạn. \nLớp lót lông cừu dày dặn bên trong tạo cảm giác mềm mại và ấm áp, không xù và không rụng lông trong suốt quá trình sử dụng\n* Phong cách trẻ trung,dễ phối hợp với các loại quần áo khác nhau",
+      "image": "assets/images/aobomber4-rebg.png",
+      "image1": "assets/images/aobomber2-rebg.png",
+      "image2": "assets/images/aobomber3.jpg",
+      "id": 6,
+      "sale": false,
+      "price_sale": 1200,
+      "size": "M"
+    },
+    {
+      "name": "Áo len xanh trắng",
+      "price": 181000,
+      "category": "Sweater",
+      "color": "Green, White",
+      "description": "Đặc điểm nổi bật:\n- Len dày dặn thích hợp mặc cho mua thu đông trong năm với form áo rộng rãi thoải mái, chất liệu dày ấm.\n- Sợi len cực mịn đem lại cảm giác thoải mái khi sử dụng.\n- Kiểu dáng trẻ trung năng động dễ phối đồ cho tất cả các cô nàng bánh bèo hay cá tính.\n- Len ít dão nên các bạn có thể giặt máy, tuy nhiên nên vắt kiệt nước trước khi phơi.",
+      "image": "assets/images/6.jpg",
+      "image1": "assets/images/6-1-rebg.png",
+      "image2": "assets/images/6-3.jpg",
+      "id": 7,
+      "sale": true,
+      "price_sale": 1999,
+      "size": "M"
+    },
+    {
+      "name": "Áo giữ nhiệt nâu trắng",
+      "price": 5500,
+      "category": "Sweater",
+      "color": "Gray, White",
+      "description": "❌Kiểu dáng: \n- Áo có form rộng, mặc lên rất tiểu thư, Hàn Quốc luônnn. \n- Vì là form rộng nên sẽ thích hợp với mọi dáng người, xóa bỏ nỗi lo lộ khuyết điểm cơ thể của minbf\n❌Mix & match: \nBạn có thể mix với quần suông, quần jean, chân váy, mix gì cũng hợp hết luônnnn\n*  HA207 CAM KẾT: \n-  HA207 bán hàng chất lượng là hàng đầu để shop có thể phát triển thương hiệu và vươn xa. \n- Sản phẩm 100% giống mô tả\n- Tư vấn nhiệt tình, chu đáo luôn lắng nghe khách hàng để phục vụ tốt. \n- Giao hàng nhanh đúng tiến độ không phải để quý khách chờ đợi lâu để nhận hàng. ",
+      "image": "assets/images/7.jpg",
+      "image1": "assets/images/1.jpg",
+      "image2": "assets/images/2.jpg",
+      "id": 8,
+      "sale": false,
+      "price_sale": 5500,
+      "size": "M"
+    },
+    {
+      "name": "Áo sơ mi caro",
+      "price": 1300,
+      "category": "T-Shirt",
+      "color": "White, Black",
+      "description": "ĐẶC ĐIỂM NỔI BẬT:\n\n- Áo Sơ Mi Flannel JustMen tay dài sở hữu vải mỏng mềm, mặc dễ chịu dù ngày nắng nóng hay ngày mưa\n\n- Form vừa vặn và lên dáng chuẩn\n\n- Thiết kế caro nổi bật và một chút cá tính với họa tiết logo thêu trước ngực lạ mắt.\n\n- Màu sắc thu hút và phù hợp mặc quanh năm",
+      "image": "assets/images/8.jpg",
+      "image1": "assets/images/1.jpg",
+      "image2": "assets/images/2.jpg",
+      "id": 9,
+      "sale": true,
+      "price_sale": 1299,
+      "size": "M"
+    },
+    {
+      "name": "Quần sort đen",
+      "price": 1270,
+      "category": "Short",
+      "color": "Black",
+      "description": "Thông tin sản phẩm: \n-\tTên sản phẩm: Quần short nỉ cao cấp BAMI HOME phong cách unisex có lai và dây rút dễ phối đồ QN02\n-\tChất liệu: Vải nỉ da cá, dày dặn nhưng vẫn tạo cảm giác thoáng mát.  Tại sao ư?  Vải nỉ da cá được dệt với các sợi đan chéo nhau, tạo nên những lỗ thoáng khí giúp người mặc cảm thấy thoải mái, ấm áp, nhưng vẫn không gây khó chịu cho làn da.\n-\tPhân loại: Hàng VNXK, được may và gia công kĩ lưỡng bởi những người thợ có kinh nghiệm trong nghề, vừa đẹp mắt vừa bảo đảm được độ bền với thời gian.\n-\tThiết kế túi 2 bên bên tiện lợi, lưng thun, dây rút. Kiểu dáng trên gối, ôm nhẹ tạo cảm giác thoải mái khi sử dụng. \n-\tMặc đi tập gym, café, du lịch, mặc nhà đều ổn \n-\tMàu sắc: ĐEN - KEM - XÁM cực dễ phối đồ, không sợ gây nóng bức, khó chịu. ",
+      "image": "assets/images/9.jpg",
+      "image1": "assets/images/1.jpg",
+      "image2": "assets/images/2.jpg",
+      "id": 10,
+      "sale": false,
+      "price_sale": 1270,
+      "size": "M"
+    },
+    {
+      "name": "Quần sort be nữ",
+      "price": 1400,
+      "category": "Short",
+      "color": "Gray",
+      "description": "Quần kaki nữ, quần kaki, quần short nữ, quần short, quần đùi, quần đùi nữ lưng thun\n🌟quần kaki, quần short nữ, quần short, quần đùi, quần đùi nữ lưng thun\n- Quần kaki nhập gọn gàng, thanh lịch, tinh tế\n- Đủ size 38-70kg\n- Có nhiều màu cho các chế lựa chọn ạ.\n- Lưng thun co giãn có dây kéo\n- Hỗ trợ đổi size thoải mái.",
+      "image": "assets/images/10.jpg",
+      "image1": "assets/images/1.jpg",
+      "image2": "assets/images/2.jpg",
+      "id": 11,
+      "sale": true,
+      "price_sale": 1200,
+      "size": "M"
+    },
+    {
+      "name": "Áo sơ mi xanh lơ",
+      "price": 1200,
+      "category": "T-Shirt",
+      "color": "Blue Gray",
+      "description": "Áo sơ mi nam dài tay Hàn Quốc dáng ôm sơ cổ bẻ vải lụa thái chống nhăn chống xù\nÁo sơ mi nam dài tay, vải đẹp cao cấp loại 1 trên thị trường\nÁo sơ mi nam cổ bẻ dài tay được thiết kế với form dáng trẻ trung với form áo ôm, rất chuẩn như hình.\nChúng tôi hiện nay cung cấp áo sơ mi nam với giá bán lẻ tốt nhất trên thị trường chính là vì có  nhà máy sản xuất với số lượng lớn, với đội ngũ nhân viên lành nghề, cho ra sản phẩm nhanh, đường may đẹp, chắc chắn \nVì sản phẩm được sản xuất với số lượng lớn để có giá cạnh tranh nên không thể tránh được sai sót. Nếu quý khách hàng không hài lòng liên hệ với chúng tôi, để shop chúng tôi tiến hành đổi trả\nRất mong nhận được ý kiến đóng góp của Quý khách hàng để chúng tôi cải thiện chất lượng dịch vụ tốt hơn.",
+      "image": "assets/images/11.jpg",
+      "image1": "assets/images/1.jpg",
+      "image2": "assets/images/2.jpg",
+      "id": 12,
+      "sale": false,
+      "price_sale": 1200,
+      "size": "M"
+    },
+    {
+      "name": "Áo khoác bò đen",
+      "price": 200000,
+      "category": "T-Shirt",
+      "color": "Black",
+      "description": "Áo có thiết kế cúc cài tiện dụng bạn có thể dễ dàng khi mặc\nForm dáng cổ điển bạn có thể dễ dàng kết hợp với nhiều trang phục khác nhau vô cùng tiện dụng và bắt mắt.\nChất liệu da năng động.Màu sắc trang nhã dễ dàng mix cùng các trang phục khác.Bạn có thể kết hợp cùng áo sơ mi, áo kiểu, quần kaki, jean các phụ kiện đi kèm để luôn được tự tin và nổi bật nhất.",
+      "image": "assets/images/12.jpg",
+      "image1": "assets/images/1.jpg",
+      "image2": "assets/images/2.jpg",
+      "id": 13,
+      "sale": false,
+      "price_sale": 200000,
+      "size": "M"
+    }
+  ],
+  "users": [
+    {
+      "name": "anil",
+      "email": "anil@user.com",
+      "password": "abc123",
+      "id": 1,
+      "address": "Nha Trang, Cam Lâm, Khánh Hòa",
+      "avt": "avt.png",
+      "sdt": "012315235",
+      "role": "User"
+    },
+    {
+      "name": "peter",
+      "email": "peter@user.com",
+      "password": "abc123",
+      "id": 2
+    },
+    {
+      "name": "hyden",
+      "email": "hyden@user.com",
+      "password": "abc123",
+      "id": 3
+    },
+    {
+      "name": "tony",
+      "email": "tony@user.com",
+      "password": "abc123",
+      "id": 4
+    },
+    {
+      "name": "Hoàng Minh Tâm",
+      "email": "minhtampro195@gmail.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "test",
+      "id": 6,
+      "address": "Nha Trang, Cam Lâm, Khánh Hòa",
+      "avt": "avt.png",
+      "sdt": "012315235",
+      "role": "User"
+    },
+    {
+      "email": "phuc@gmail.com",
+      "password": "$2a$10$Ih8BMYRlAjeHdZmcXM1PzeIdgJIs54N4TET2yZD8jWqTCyaywzwye",
+      "id": 7,
+      "address": "Nha Trang, Cam Lâm, Khánh Hòa",
+      "avt": "avt.png",
+      "sdt": "012315235",
+      "role": "User"
+    },
+    {
+      "email": "kaka@gmail.com",
+      "password": "$2a$10$CsdPz9BdTbWBkE3wK/7lUeaGrOX0iLDF4bpEgdGoBi0tRxK6vdS4e",
+      "name": "ka1234",
+      "id": 8,
+      "address": "Nha Trang, Cam Lâm, Khánh Hòa",
+      "avt": "avt.png",
+      "sdt": "012315235",
+      "role": "User"
+    },
+    {
+      "email": "minhtampro191@gmail.com",
+      "password": "$2a$10$Mtmjfjl58tict9iwwEsZP.zR4p619unK8ArsTXOKHlwj8rXcG3Uny",
+      "name": "Hoàng Minh Tâm",
+      "id": 9,
+      "address": "Nha Trang, Cam Lâm, Khánh Hòa",
+      "avt": "avt.png",
+      "sdt": "012315235",
+      "role": "User"
+    },
+    {
+      "email": "minhtampro199@gmail.com",
+      "password": "$2a$10$jlDfM4StwTBDWx8JpgS2TuzLifqW.9Qwl21JbqZjeHAh3SQyfq90G",
+      "name": "Hoàng Minh Tâm",
+      "id": 10,
+      "address": "Nha Trang, Cam Lâm, Khánh Hòa",
+      "avt": "avt.png",
+      "sdt": "012315235",
+      "role": "User"
+    },
+    {
+      "email": "phanphuc@gmail.com",
+      "password": "$2a$10$AtOPzet6fjOjwT8WEcMNye7j4qrEcYI7UmIopAz28A4v3CZt6fWvO",
+      "name": "Phúc",
+      "id": 11,
+      "address": "Nha Trang, Cam Lâm, Khánh Hòa",
+      "avt": "avt.png",
+      "sdt": "012315235",
+      "role": "User"
+    },
+    {
+      "email": "minhtampro211@gmail.com",
+      "password": "$2a$10$sSfMu2UHCboesb2rk4I68uexNPhiGqql.gPXMUegG6YUokRyuD5I.",
+      "name": "Nam",
+      "address": "Phú Yên",
+      "avt": "avt.png",
+      "sdt": "012233333",
+      "role": "Admin",
+      "id": 12
+    },
+    {
+      "email": "minhphuc@gmail.com",
+      "password": "$2a$10$IfQV9EEdNRKU674DJHkYsOYtM6JfgAQgu3tJGopgcUuRDBDMebqn.",
+      "name": "Sam 22",
+      "address": "Cam Hòa, Cam Lâm, Khánh Hòa",
+      "avt": "avt.png",
+      "sdt": "0935969923",
+      "role": "User",
+      "id": 13
+    },
+    {
+      "email": "daylaemaol@gmail.com",
+      "password": "$2a$10$FLJolXraYUUNj0lq79LmJeEITGdVE9MP09cyNZZFX1YeMKlcvDZKe",
+      "name": "Nam",
+      "address": "Phú Yên",
+      "avt": "avt.png",
+      "sdt": "012233333",
+      "role": "Admin",
+      "id": 14
+    },
+    {
+      "email": "daylates@gmail.com",
+      "password": "$2a$10$FMyArwjgVAVPCDPfWZaAfeOHO9ov747Gwhj9ZlsmtCnwdQio9zUTG",
+      "name": "testuser",
+      "address": "Cam Hòa, Cam Lâm, Khánh Hòa",
+      "avt": "ưdwdwdwd",
+      "sdt": "2353455",
+      "role": "User",
+      "id": 15
+    },
+    {
+      "email": "hien123@gmail.com",
+      "password": "$2a$10$nxqzhDj/Ipj35LF3rG.XKOq4FQojovmwQN1IWpa/zx5j76yoM8N4G",
+      "name": "hien",
+      "address": "Cam Hòa, Cam Lâm, Khánh Hòa",
+      "avt": "avt.png",
+      "sdt": "2353455",
+      "role": "User",
+      "id": 16
+    }
+  ],
+  "history": [
+    {
+      "email": "anil@user.com",
+      "address": "noida sector x",
+      "contact": "9999",
+      "totalPrice": 104750,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "email": "anil@test.com",
+      "address": "noida sector x",
+      "contact": "8877",
+      "totalPrice": 6100,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "email": "minhtampro195@gmail.com",
+      "address": "Cam Hòa, Cam Lâm, Khánh Hòa",
+      "contact": "246354645654",
+      "totalPrice": 3100,
+      "userId": 5,
+      "id": 4
+    },
+    {
+      "address": "Nha Trang",
+      "email": "hoa@gmail.com",
+      "contact": "zqsz",
+      "totalPrice": 200650,
+      "userId": 3,
+      "id": 10
+    },
+    {
+      "address": "Cam Hòa, Cam Lâm, Khánh Hòa",
+      "email": "minhtampro195@gmail.com",
+      "contact": "0935969923",
+      "totalPrice": 26100,
+      "userId": 2,
+      "id": 11
+    },
+    {
+      "address": "Cam Hòa, Cam Lâm, Khánh Hòa",
+      "email": "hoangchienpro195@gmail.com",
+      "contact": "0935969923",
+      "totalPrice": 59200,
+      "userId": 2,
+      "id": 12
+    },
+    {
+      "address": "Cam Hòa, Cam Lâm, Khánh Hòa",
+      "email": "hoangchienpro195@gmail.com",
+      "contact": "2353455",
+      "totalPrice": 11600,
+      "userId": 2,
+      "id": 13
+    },
+    {
+      "address": "Cam Hòa, Cam Lâm, Khánh Hòa",
+      "email": "hoangchienpro195@gmail.com",
+      "contact": "0935969923",
+      "totalPrice": 4300,
+      "userId": 8,
+      "id": 14
+    }
+  ],
+  "detail-history": [],
+  "cart": [
+    {
+      "userId": 13,
+      "product": {
+        "name": "Áo len xanh trắng",
+        "price": 181000,
+        "category": "Sweater",
+        "color": "Green, White",
+        "description": "Đặc điểm nổi bật:\n- Len dày dặn thích hợp mặc cho mua thu đông trong năm với form áo rộng rãi thoải mái, chất liệu dày ấm.\n- Sợi len cực mịn đem lại cảm giác thoải mái khi sử dụng.\n- Kiểu dáng trẻ trung năng động dễ phối đồ cho tất cả các cô nàng bánh bèo hay cá tính.\n- Len ít dão nên các bạn có thể giặt máy, tuy nhiên nên vắt kiệt nước trước khi phơi.",
+        "image": "assets/images/6.jpg",
+        "image1": "assets/images/6-1-rebg.png",
+        "image2": "assets/images/6-3.jpg",
+        "id": 7,
+        "sale": true,
+        "price_sale": 1999,
+        "size": "M"
+      },
+      "id": 1
+    },
+    {
+      "userId": 13,
+      "product": {
+        "name": "Áo giữ nhiệt nâu trắng",
+        "price": 5500,
+        "category": "Sweater",
+        "color": "Gray, White",
+        "description": "❌Kiểu dáng: \n- Áo có form rộng, mặc lên rất tiểu thư, Hàn Quốc luônnn. \n- Vì là form rộng nên sẽ thích hợp với mọi dáng người, xóa bỏ nỗi lo lộ khuyết điểm cơ thể của minbf\n❌Mix & match: \nBạn có thể mix với quần suông, quần jean, chân váy, mix gì cũng hợp hết luônnnn\n*  HA207 CAM KẾT: \n-  HA207 bán hàng chất lượng là hàng đầu để shop có thể phát triển thương hiệu và vươn xa. \n- Sản phẩm 100% giống mô tả\n- Tư vấn nhiệt tình, chu đáo luôn lắng nghe khách hàng để phục vụ tốt. \n- Giao hàng nhanh đúng tiến độ không phải để quý khách chờ đợi lâu để nhận hàng. ",
+        "image": "assets/images/7.jpg",
+        "image1": "assets/images/1.jpg",
+        "image2": "assets/images/2.jpg",
+        "id": 8,
+        "sale": false,
+        "price_sale": 5500,
+        "size": "M"
+      },
+      "id": 2
+    },
+    {
+      "userId": 13,
+      "product": {
+        "name": "Quần đùi nữ",
+        "price": 45000,
+        "category": "Jeans",
+        "color": "Black, White",
+        "description": "⚜️ THÔNG TIN SẢN PHẨM\n- Chất liệu: Vải umi thể thao dày dặn, chất co dãn thoải mái, mát mẻ\n- Form quần rộng vô cùng thoải mái\n- Gấu quần kiểu lai tưa, có thể cắt gấu lên tùy ý thích mặc dài hay ngắn để phù hợp với chiều cao từng người ạ.\n- Đường kim mũi chỉ cẩn thận, chắc chắn\n- Sản phẩm cắt chỉ rất tỉ mỉ, gần như không có chỉ thừa\n- Shop luôn bỏ sản phẩm ra kiểm tra lại trước khi đóng gói (gần như rất rất ít đơn vị khác làm công đoạn này)\nNên sản phẩm bạn nhận được gần như không có lỗi\n- Hình chi tiết sản phẩm Shop tự chụp.\n- Shop đặt SX và bán tại KHO nên có giá cả tốt nhất và ưu đãi nhất ạ 😘",
+        "image": "assets/images/quanduinu1-rebg.png",
+        "image1": "assets/images/quanduinu2-rebg.png",
+        "image2": "assets/images/quanduinu3.jpg",
+        "id": 5,
+        "sale": false,
+        "price_sale": 5000,
+        "size": "M"
+      },
+      "id": 3
+    },
+    {
+      "userId": 13,
+      "product": {
+        "name": "Quần đùi nữ",
+        "price": 45000,
+        "category": "Jeans",
+        "color": "Black, White",
+        "description": "⚜️ THÔNG TIN SẢN PHẨM\n- Chất liệu: Vải umi thể thao dày dặn, chất co dãn thoải mái, mát mẻ\n- Form quần rộng vô cùng thoải mái\n- Gấu quần kiểu lai tưa, có thể cắt gấu lên tùy ý thích mặc dài hay ngắn để phù hợp với chiều cao từng người ạ.\n- Đường kim mũi chỉ cẩn thận, chắc chắn\n- Sản phẩm cắt chỉ rất tỉ mỉ, gần như không có chỉ thừa\n- Shop luôn bỏ sản phẩm ra kiểm tra lại trước khi đóng gói (gần như rất rất ít đơn vị khác làm công đoạn này)\nNên sản phẩm bạn nhận được gần như không có lỗi\n- Hình chi tiết sản phẩm Shop tự chụp.\n- Shop đặt SX và bán tại KHO nên có giá cả tốt nhất và ưu đãi nhất ạ 😘",
+        "image": "assets/images/quanduinu1-rebg.png",
+        "image1": "assets/images/quanduinu2-rebg.png",
+        "image2": "assets/images/quanduinu3.jpg",
+        "id": 5,
+        "sale": false,
+        "price_sale": 5000,
+        "size": "M"
+      },
+      "id": 4
+    },
+    {
+      "userId": 13,
+      "product": {
+        "name": "Áo thu đông",
+        "price": 13000,
+        "category": "Jacket",
+        "color": "Green",
+        "description": "I.SHOP CAM KẾT\n\n- Sản phẩm Khoác lót lông cừu chất dù xuất dư xịn đét, form rộng giống mô tả 100%\n\n- Hình ảnh sản phẩm là ảnh thật, các hình hoàn toàn do shop tự thiết kế và chụp.\n\n- Kiểm tra  cẩn thận trước khi gói hàng giao cho Quý Khách\n\n- Hàng có sẵn, giao hàng ngay khi nhận được đơn \n\n- Hoàn tiền nếu sản phẩm không giống với mô tả\n\n- Chấp nhận đổi hàng khi size không vừa trong 3 ngày.\n\n\n\nII. HỖ TRỢ ĐỔI TRẢ THEO QUY ĐỊNH CỦA SHOP\n\n- Điều kiện áp dụng (trong vòng 3 ngày kể từ khi nhận sản phẩm) \n\n- Hàng hoá bị rách, in lỗi, bung chỉ, và các lỗi do vận chuyển hoặc do nhà sản xuất.\n\n1. Trường hợp được chấp nhận: \n\n- Hàng giao sai size khách đã đặt hàng \n\n- Giao thiếu hàng \n\n2. Trường hợp không đủ điều kiện áp dụng chính sách: \n\n- Quá 2 ngày kể từ khi Quý khách nhận hàng \n\n- Gửi lại hàng không đúng mẫu mã, không phải sản phẩm của Nice Clothes\n\n- Không thích, không hợp, đặt nhầm mã, nhầm màu,... ",
+        "image": "assets/images/aothudong1-rebg.png",
+        "image1": "assets/images/aothudong2-rebg.png",
+        "image2": "assets/images/aothudong3.jpg",
+        "id": 2,
+        "sale": false,
+        "price_sale": 13000,
+        "size": "M"
+      },
+      "id": 5
+    },
+    {
+      "userId": 13,
+      "product": {
+        "name": "Áo thu đông",
+        "price": 13000,
+        "category": "Jacket",
+        "color": "Green",
+        "description": "I.SHOP CAM KẾT\n\n- Sản phẩm Khoác lót lông cừu chất dù xuất dư xịn đét, form rộng giống mô tả 100%\n\n- Hình ảnh sản phẩm là ảnh thật, các hình hoàn toàn do shop tự thiết kế và chụp.\n\n- Kiểm tra  cẩn thận trước khi gói hàng giao cho Quý Khách\n\n- Hàng có sẵn, giao hàng ngay khi nhận được đơn \n\n- Hoàn tiền nếu sản phẩm không giống với mô tả\n\n- Chấp nhận đổi hàng khi size không vừa trong 3 ngày.\n\n\n\nII. HỖ TRỢ ĐỔI TRẢ THEO QUY ĐỊNH CỦA SHOP\n\n- Điều kiện áp dụng (trong vòng 3 ngày kể từ khi nhận sản phẩm) \n\n- Hàng hoá bị rách, in lỗi, bung chỉ, và các lỗi do vận chuyển hoặc do nhà sản xuất.\n\n1. Trường hợp được chấp nhận: \n\n- Hàng giao sai size khách đã đặt hàng \n\n- Giao thiếu hàng \n\n2. Trường hợp không đủ điều kiện áp dụng chính sách: \n\n- Quá 2 ngày kể từ khi Quý khách nhận hàng \n\n- Gửi lại hàng không đúng mẫu mã, không phải sản phẩm của Nice Clothes\n\n- Không thích, không hợp, đặt nhầm mã, nhầm màu,... ",
+        "image": "assets/images/aothudong1-rebg.png",
+        "image1": "assets/images/aothudong2-rebg.png",
+        "image2": "assets/images/aothudong3.jpg",
+        "id": 2,
+        "sale": false,
+        "price_sale": 13000,
+        "size": "M"
+      },
+      "id": 6
+    },
+    {
+      "userId": 13,
+      "product": {
+        "name": "Áo Bomber Nam",
+        "price": 129000,
+        "category": "T-Shirt",
+        "color": "Yellow",
+        "description": "* THÔNG TIN SẢN PHẨM\nÁo khoác nam lót lông 3 khoá chất vải gió tráng bạc chống nước, lót lông dày dặn\n\n* Tiếp nối sự thành công của mẫu áo gió nam lót lông 2021, mẫu áo lót lông nam năm nay được cải tiến tốt hơn. \nCải tiến về form áo đảm bảo rộng rãi, về khoá chất lượng, bền và chắc chắn, bên trong lót lông ấm ám, dày dặn.\n\n* Một sự khác biệt giữa mẫu năm nay so với mẫu cũ ở thiết kế vải gió tráng bạc chống nước, chống gió tuyệt đối . \nChất liệu lông của áo khoác nam lót lông được nhập khẩu trực tiếp, đảm bảo chất lượng và an toàn cho làn da của bạn. \nLớp lót lông cừu dày dặn bên trong tạo cảm giác mềm mại và ấm áp, không xù và không rụng lông trong suốt quá trình sử dụng\n* Phong cách trẻ trung,dễ phối hợp với các loại quần áo khác nhau",
+        "image": "assets/images/aobomber4-rebg.png",
+        "image1": "assets/images/aobomber2-rebg.png",
+        "image2": "assets/images/aobomber3.jpg",
+        "id": 6,
+        "sale": false,
+        "price_sale": 1200,
+        "size": "M"
+      },
+      "id": 7
+    },
+    {
+      "userId": 13,
+      "product": {
+        "name": "Áo thu đông",
+        "price": 13000,
+        "category": "Jacket",
+        "color": "Green",
+        "description": "I.SHOP CAM KẾT\n\n- Sản phẩm Khoác lót lông cừu chất dù xuất dư xịn đét, form rộng giống mô tả 100%\n\n- Hình ảnh sản phẩm là ảnh thật, các hình hoàn toàn do shop tự thiết kế và chụp.\n\n- Kiểm tra  cẩn thận trước khi gói hàng giao cho Quý Khách\n\n- Hàng có sẵn, giao hàng ngay khi nhận được đơn \n\n- Hoàn tiền nếu sản phẩm không giống với mô tả\n\n- Chấp nhận đổi hàng khi size không vừa trong 3 ngày.\n\n\n\nII. HỖ TRỢ ĐỔI TRẢ THEO QUY ĐỊNH CỦA SHOP\n\n- Điều kiện áp dụng (trong vòng 3 ngày kể từ khi nhận sản phẩm) \n\n- Hàng hoá bị rách, in lỗi, bung chỉ, và các lỗi do vận chuyển hoặc do nhà sản xuất.\n\n1. Trường hợp được chấp nhận: \n\n- Hàng giao sai size khách đã đặt hàng \n\n- Giao thiếu hàng \n\n2. Trường hợp không đủ điều kiện áp dụng chính sách: \n\n- Quá 2 ngày kể từ khi Quý khách nhận hàng \n\n- Gửi lại hàng không đúng mẫu mã, không phải sản phẩm của Nice Clothes\n\n- Không thích, không hợp, đặt nhầm mã, nhầm màu,... ",
+        "image": "assets/images/aothudong1-rebg.png",
+        "image1": "assets/images/aothudong2-rebg.png",
+        "image2": "assets/images/aothudong3.jpg",
+        "id": 2,
+        "sale": false,
+        "price_sale": 13000,
+        "size": "M"
+      },
+      "id": 8
+    },
+    {
+      "userId": 13,
+      "product": {
+        "name": "Áo thu đông",
+        "price": 13000,
+        "category": "Jacket",
+        "color": "Green",
+        "description": "I.SHOP CAM KẾT\n\n- Sản phẩm Khoác lót lông cừu chất dù xuất dư xịn đét, form rộng giống mô tả 100%\n\n- Hình ảnh sản phẩm là ảnh thật, các hình hoàn toàn do shop tự thiết kế và chụp.\n\n- Kiểm tra  cẩn thận trước khi gói hàng giao cho Quý Khách\n\n- Hàng có sẵn, giao hàng ngay khi nhận được đơn \n\n- Hoàn tiền nếu sản phẩm không giống với mô tả\n\n- Chấp nhận đổi hàng khi size không vừa trong 3 ngày.\n\n\n\nII. HỖ TRỢ ĐỔI TRẢ THEO QUY ĐỊNH CỦA SHOP\n\n- Điều kiện áp dụng (trong vòng 3 ngày kể từ khi nhận sản phẩm) \n\n- Hàng hoá bị rách, in lỗi, bung chỉ, và các lỗi do vận chuyển hoặc do nhà sản xuất.\n\n1. Trường hợp được chấp nhận: \n\n- Hàng giao sai size khách đã đặt hàng \n\n- Giao thiếu hàng \n\n2. Trường hợp không đủ điều kiện áp dụng chính sách: \n\n- Quá 2 ngày kể từ khi Quý khách nhận hàng \n\n- Gửi lại hàng không đúng mẫu mã, không phải sản phẩm của Nice Clothes\n\n- Không thích, không hợp, đặt nhầm mã, nhầm màu,... ",
+        "image": "assets/images/aothudong1-rebg.png",
+        "image1": "assets/images/aothudong2-rebg.png",
+        "image2": "assets/images/aothudong3.jpg",
+        "id": 2,
+        "sale": false,
+        "price_sale": 13000,
+        "size": "M"
+      },
+      "id": 9
+    },
+    {
+      "userId": 13,
+      "product": {
+        "name": "Váy ngắn",
+        "price": 550,
+        "category": "Skirt",
+        "color": "Black",
+        "description": "❗ Những lưu ý cần thiết để giữ độ bền về chất lượng và màu sắc:\n▪️ Giặt ở nhiệt độ bình thường, với đồ có màu tương tự.\n▪️ Hạn chế sử dụng máy sấy và ủi (nếu có) thì ở nhiệt độ thích hợp.\n▪️ Không sử dụng chất tẩy rửa mạnh.",
+        "image": "assets/images/vay1_rebg.png",
+        "image1": "assets/images/vay21_rebg.png",
+        "image2": "assets/images/28.jpg",
+        "id": 1,
+        "sale": true,
+        "price_sale": 500,
+        "size": "M"
+      },
+      "id": 10
+    },
+    {
+      "userId": 13,
+      "product": {
+        "name": "Áo thu đông",
+        "price": 13000,
+        "category": "Jacket",
+        "color": "Green",
+        "description": "I.SHOP CAM KẾT\n\n- Sản phẩm Khoác lót lông cừu chất dù xuất dư xịn đét, form rộng giống mô tả 100%\n\n- Hình ảnh sản phẩm là ảnh thật, các hình hoàn toàn do shop tự thiết kế và chụp.\n\n- Kiểm tra  cẩn thận trước khi gói hàng giao cho Quý Khách\n\n- Hàng có sẵn, giao hàng ngay khi nhận được đơn \n\n- Hoàn tiền nếu sản phẩm không giống với mô tả\n\n- Chấp nhận đổi hàng khi size không vừa trong 3 ngày.\n\n\n\nII. HỖ TRỢ ĐỔI TRẢ THEO QUY ĐỊNH CỦA SHOP\n\n- Điều kiện áp dụng (trong vòng 3 ngày kể từ khi nhận sản phẩm) \n\n- Hàng hoá bị rách, in lỗi, bung chỉ, và các lỗi do vận chuyển hoặc do nhà sản xuất.\n\n1. Trường hợp được chấp nhận: \n\n- Hàng giao sai size khách đã đặt hàng \n\n- Giao thiếu hàng \n\n2. Trường hợp không đủ điều kiện áp dụng chính sách: \n\n- Quá 2 ngày kể từ khi Quý khách nhận hàng \n\n- Gửi lại hàng không đúng mẫu mã, không phải sản phẩm của Nice Clothes\n\n- Không thích, không hợp, đặt nhầm mã, nhầm màu,... ",
+        "image": "assets/images/aothudong1-rebg.png",
+        "image1": "assets/images/aothudong2-rebg.png",
+        "image2": "assets/images/aothudong3.jpg",
+        "id": 2,
+        "sale": false,
+        "price_sale": 13000,
+        "size": "M"
+      },
+      "id": 11
+    }
+  ]
+}

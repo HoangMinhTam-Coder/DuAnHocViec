@@ -1,0 +1,206 @@
+<section class="page-header">
+  <div class="overly"></div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="content text-center">
+          <h1 class="mb-3">Shop</h1>
+          <p>Hath after appear tree great fruitful green dominion moveth sixth abundantly image that midst of god day
+            multiply you’ll which</p>
+
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-transparent justify-content-center">
+              <li class="breadcrumb-item"><a routerLink="/">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Shop</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="products-shop section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="row align-items-center">
+          <div class="col-lg-12 mb-4 mb-lg-0">
+            <div class="section-title">
+              <h2 class="d-block text-left-sm">Shop</h2>
+
+              <div class="heading d-flex justify-content-between mb-5">
+
+                <p class="result-count mb-0" *ngIf="(p*6) < listProduct.length; then true1 else false1"> </p>
+                <!-- <p class="result-count mb-0" *ngIf="(listProduct.length - 6* (p - 1))"> Showing {{(listProduct.length -
+                  6* (p - 1))}} of {{listProduct.length}} results</p> -->
+                <ng-template #true1>
+                  <p class="result-count mb-0"> Showing {{((p-1) * 6) + 1}}–{{p*6}} of {{listProduct.length!}} results
+                  </p>
+                </ng-template>
+                <ng-template #false1>
+                  <ng-container *ngIf="((listProduct.length! - 6* (p - 1)) == 1); then true2 else false2">
+                  </ng-container>
+                </ng-template>
+                <ng-template #true2>
+                  <p class="result-count mb-0"> Showing {{listProduct.length!}} of {{listProduct.length!}}
+                    results</p>
+                </ng-template>
+                <ng-template #false2>
+                  <p class="result-count mb-0"> Showing {{((p-1) * 6) + 1}}–{{listProduct.length! - 6* (p - 1)}} of {{listProduct.length!}}
+                    results</p>
+                </ng-template>
+                <form class="ordering" (change)="SortPro($event)">
+                  <select name="orderby" class="orderby form-control" aria-label="Shop order">
+                    <option value="Default" selected="selected">Default sorting</option>
+                    <option value="price_asc">Sort by price: low to high</option>
+                    <option value="price_desc">Sort by price: high to low</option>
+                  </select>
+                  <input type="hidden" name="paged" value="1">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-12 col-md-6 col-sm-6 mb-5"
+            *ngFor="let item of listProduct  | paginate: {itemsPerPage: 6, currentPage: p}">
+            <div class="product">
+              <div class="product-wrap">
+                <a routerLink="/product_detail/{{item.id}}"><img class="img-fluid w-100 mb-3 img-first" src="{{item.image}}"
+                    alt="product-img" style="width: 336px; height: 504px; object-fit: contain;" /></a>
+                <a routerLink="/product_detail/{{item.id}}"><img class="img-fluid w-100 mb-3 img-second" src="{{item.image1}}"
+                    alt="product-img" style="width: 336px; height: 504px; object-fit: contain;" /></a>
+              </div>
+
+              <span class="onsale" *ngIf="item.sale">Sale</span>
+              <div class="product-hover-overlay">
+                <a><i style="color: white;" class="tf-ion-android-cart"></i></a>
+              </div>
+
+              <div class="product-info">
+                <h2 class="product-title h5 mb-0"><a routerLink="/product_detail/{{item.id}}">{{item.name}}</a></h2>
+                <span class="price">
+                  {{item.price | currency:'VND':'VND': '':'vi' }}
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <nav aria-label="Page navigation">
+              <ul class="pagination">
+                <pagination-controls (pageChange)="p = $event"></pagination-controls>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+
+
+
+        <!-- color and size -->
+        <form class="mb-5">
+
+
+          <!-- color -->
+          <section class="widget widget-colors mb-5">
+            <h3 class="widget-title h4 mb-4">Shop by color</h3>
+            <ul class="list-inline">
+              <li class="list-inline-item mr-4">
+                <div class="custom-control custom-checkbox color-checkbox">
+                  <input type="checkbox" class="custom-control-input " id="color1" (change)="onCheckboxChange($event, 'Blue')">
+                  <label class="custom-control-label-now sky-blue" for="color1"></label>
+                </div>
+              </li>
+              <li class="list-inline-item mr-4">
+                <div class="custom-control custom-checkbox color-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="color2" (change)="onCheckboxChange($event, 'Green')">
+                  <label class="custom-control-label-now green" for="color2"></label>
+                </div>
+              </li>
+              <li class="list-inline-item mr-4">
+                <div class="custom-control custom-checkbox color-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="color3" (change)="onCheckboxChange($event, 'Black')">
+                  <label class="custom-control-label-now dark" for="color3"></label>
+                </div>
+              </li>
+              <li class="list-inline-item mr-4">
+                <div class="custom-control custom-checkbox color-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="color4" (change)="onCheckboxChange($event, 'White')">
+                  <label class="custom-control-label-now white" for="color4"></label>
+                </div>
+              </li>
+              <li class="list-inline-item mr-4">
+                <div class="custom-control custom-checkbox color-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="color5" (change)="onCheckboxChange($event, 'Yellow')">
+                  <label class="custom-control-label-now yellow" for="color5"></label>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="widget widget-sizes mb-5">
+            <h3 class="widget-title h4 mb-4">Shop by Category</h3>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input me-2" id="size1" (change)="onCheckboxCategoryChange($event, 'T-Shirt')">
+              <label class="custom-control-label" for="size1">Áo sơ mi</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input  me-2" id="size2" (change)="onCheckboxCategoryChange($event, 'Jacket')">
+              <label class="custom-control-label" for="size2">Áo khoác</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input me-2" id="size3" (change)="onCheckboxCategoryChange($event, 'Jeans')">
+              <label class="custom-control-label" for="size3">Quần jean</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input me-2" id="size4">
+              <label class="custom-control-label" for="size4">Quần dài</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input me-2" id="size5" (change)="onCheckboxCategoryChange($event, 'Short')">
+              <label class="custom-control-label" for="size5">Quần đùi</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input me-2" id="size5" >
+              <label class="custom-control-label" for="size5" >Áo thun</label>
+            </div>
+          </section>
+
+          <!-- size -->
+        </form>
+
+        <!-- popular product -->
+        <!-- <section class="widget widget-popular mb-5">
+          <h3 class="widget-title mb-4 h4">Popular Products</h3>
+          <a class="popular-products-item media" routerLink="/product-single">
+            <img src="assets/images/p-1.jpg" alt="" class="img-fluid mr-4">
+            <div class="media-body">
+              <h6>Contrast <br>Backpack</h6>
+              <span class="price">$45</span>
+            </div>
+          </a>
+
+          <a class="popular-products-item media" routerLink="/product-single">
+            <img src="assets/images/p-2.jpg" alt="" class="img-fluid mr-4">
+            <div class="media-body">
+              <h6>Hoodie with <br>Logo</h6>
+              <span class="price">$45</span>
+            </div>
+          </a>
+
+          <a class="popular-products-item media" routerLink="/product-single">
+            <img src="assets/images/p-3.jpg" alt="" class="img-fluid mr-4">
+            <div class="media-body">
+              <h6>Traveller<br>Backpack</h6>
+              <span class="price">$45</span>
+            </div>
+          </a>
+        </section> -->
+      </div>
+    </div>
+  </div>
+</section>

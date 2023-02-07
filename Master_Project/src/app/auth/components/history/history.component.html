@@ -1,0 +1,40 @@
+<section class="page-header">
+  <div class="overly"></div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="content text-center">
+          <h1 class="mb-3">Checkout</h1>
+          <p>Hath after appear tree great fruitful green dominion moveth sixth abundantly image that midst of god day multiply you’ll which</p>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb bg-transparent justify-content-center">
+            <li class="breadcrumb-item"><a routerLink="/">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">History</li>
+          </ol>
+        </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<table class="table container mt-5 mb-5">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Time</th>
+      <th scope="col">Phone Number</th>
+      <th scope="col">Address</th>
+      <th scope="col">Detail</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of listHis">
+      <th scope="row">{{item.id}}</th>
+      <td>{{item.time}}</td>
+      <td>{{item.sdt}}</td>
+      <td>{{item.diaChi}}</td>
+      <td><a routerLink="/history_detail/{{item.id}}">Detail Order</a></td>
+    </tr>
+  </tbody>
+</table>
+<div ></div>

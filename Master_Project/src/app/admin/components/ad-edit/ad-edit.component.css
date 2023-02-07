@@ -1,0 +1,60 @@
+h2 {
+  font-size: 1em;
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  line-height: 1em;
+  padding-bottom: 2em;
+  color: #fb667a;
+}
+
+.Button, .Edit-Button {
+  --Background: #2b3044;
+  --Background-Hover: #1e2235;
+  --Text: #fff;
+  --Shadow: Rgba(0, 9, 61, 0.2);
+  --Paper: #5c86ff;
+  --Paper-Lines: #fff;
+  --Trash: #e1e6f9;
+  --Trash-Lines: #bbc1e1;
+  --Check: #fff;
+  --Check-Background: #5c86ff;
+  position: relative;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 10px 24px;
+  border-radius: 7px;
+  width: 175px;
+  height: 51px;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  display: flex;
+  color: Var(--Text);
+  background: Var(--Btn, Var(--Background));
+  box-shadow: 0 Var(--Shadow-Y, 4px) Var(--Shadow-Blur, 8px) Var(--Shadow);
+  transform: Scale(Var(--Scale, 1));
+  transition: transform 0.3s, box-shadow 0.3s, Background 0.3s;
+  gap: 4px;
+}
+
+
+.Edit-Button {
+  background-color: #579BB1;
+}
+
+.Button {
+  background-color: #717576;
+}
+
+.Edit-Button:hover, .Button:hover {
+  scale: 0.95 ;
+  transition: ease-in 0.2s;
+}
+
+.customcheckbox {
+  display: block;
+  width: 45px;
+  height: 45px;
+}

@@ -1,0 +1,59 @@
+<section class="page-header">
+  <div class="overly"></div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="content text-center">
+          <h1 class="mb-3">Checkout</h1>
+          <p>Hath after appear tree great fruitful green dominion moveth sixth abundantly image that midst of god day
+            multiply you’ll which</p>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-transparent justify-content-center">
+              <li class="breadcrumb-item"><a routerLink="/">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">History</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container mt-5 mb-5">
+  <table class="table container mt-4 align-middle">
+    <thead>
+      <tr>
+        <th scope="col">Image</th>
+        <th scope="col">Name</th>
+        <th scope="col">Price</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Size</th>
+        <th scope="col">Categories</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of listProduct">
+        <td><img src="{{item.products.image}}" alt="{{item.products.name}}" width="70"></td>
+        <td>{{item.products.name}}</td>
+        <td class="align-middle" *ngIf="item.products.sale; else sale">
+          {{item.products.price_sale | currency:'VND':'VND': '':'vi' }}
+          <del>{{item.products.price | currency:'VND':'VND': '':'vi' }}</del>
+        </td>
+        <ng-template #sale>
+          <td>
+            {{item.products.price | currency:'VND':'VND': '':'vi' }}</td>
+        </ng-template>
+        <td>{{item.quantity}}</td>
+        <td>{{item.products.size}}</td>
+        <td>{{item.products.category}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="d-flex justify-content-between">
+    <a routerLink="/history" Class="Button d-flex align-items-center">
+      <i class="fa-solid fa-chevron-left"></i>
+      <Span>Cancel and Back</Span>
+    </a>
+    <h4 class="text-end">Total: {{total | currency:'VND':'VND': '':'vi' }}</h4>
+  </div>
+</div>

@@ -1,0 +1,90 @@
+<div class="container mb-5">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a routerLink="/ad_update">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Edit Product</li>
+    </ol>
+  </nav>
+  <h2 class="text-start" style="font-weight: bolder; font-size: 24px;">Cập nhật sản phẩm</h2>
+  <div class="container me-5 ms-5">
+    <form  [formGroup]="editProduct" (ngSubmit)="handlerProduct(editProduct.value)">
+      <div class="row">
+        <div class="form-group mb-4 col-6">
+          <label for="#" >Name</label>
+          <input type="text" class="form-control" placeholder="{{productEdit.name}}" formControlName="name" >
+        </div>
+
+        <div class="col-6 d-flex gap-2">
+          <div class="form-group">
+            <label for="#">Sale</label>
+            <input type="checkbox" class="customcheckbox" value="{{productEdit.price!}}" (click)="CheckChange($event)" >
+          </div>
+          <div class="form-group w-100" *ngIf="isCheck == 1">
+            <label for="#">Price Sale</label>
+            <input type="text" class="form-control" placeholder="{{productEdit.price_sale!}}" formControlName="price_sale">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-6">
+          <label for="#">Image</label>
+          <input type="text" class="form-control" placeholder="{{productEdit.image!}}" formControlName="image">
+        </div>
+        <div class="form-group mb-4 col-6">
+          <label for="#" >Image1</label>
+          <input type="text" class="form-control" placeholder="{{productEdit.image1!}}" formControlName="image1" >
+        </div>
+      </div>
+      <div class="row ">
+         <div class="form-group col-6">
+          <label for="#">Image2</label>
+          <input type="text" class="form-control" placeholder="{{productEdit.image2!}}" formControlName="image2">
+        </div>
+        <div class="form-group mb-4 col-2">
+          <label for="#" >Category</label>
+          <input type="text" class="form-control" placeholder="{{productEdit.category!}}" formControlName="category">
+        </div>
+        <div class="form-group col-1">
+          <label for="#">Size</label>
+          <input type="text" class="form-control" placeholder="{{productEdit.size!}}" formControlName="size">
+        </div>
+        <div class="form-group col-1">
+          <label for="#">Color</label>
+          <input type="text" class="form-control" placeholder="{{productEdit.color!}}" formControlName="color">
+        </div>
+        <div class="form-group col-2">
+          <label for="#">Price</label>
+          <input type="text" class="form-control"  placeholder="{{productEdit.price!}}" formControlName="price">
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-12">
+          <div class="form-group">
+            <label for="#">Description</label>
+            <textarea style="height: 200px;" type="text" class="form-control" placeholder="{{productEdit.description}}" formControlName="description"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="box d-flex gap-3 align-items-center" (click)="handlerProduct(productEdit)">
+        <Button Class="Edit-Button " >
+          <Div Class="Trash">
+            <Div Class="Top">
+              <Div Class="Paper"></Div>
+            </Div>
+            <Div Class="Box"></Div>
+            <Div Class="Check">
+              <i class="fa-solid fa-pen-to-square"></i>
+            </Div>
+          </Div>
+          <Span>Edit Item</Span>
+        </Button>
+
+        <Button Class="Button d-flex align-items-center" (click)="handlerBack()">
+          <i class="fa-solid fa-chevron-left"></i>
+          <Span>Cancel and Back</Span>
+        </Button>
+      </div>
+    </form>
+    <pre>{{editProduct.value | json}}</pre>
+  </div>
+</div>
