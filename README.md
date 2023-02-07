@@ -27,3 +27,6 @@ npm install
 - Chỉnh sửa giỏ hàng
 - Thực hiện thanh toán
 - Xem lịch sử mua hàng và chi tiết mua hàng
+- Login và đăng ký tài khoản
+
+## Các hình ảnh sơ lược của dự án
