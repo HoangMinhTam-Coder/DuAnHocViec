@@ -7,3 +7,6 @@ Password: Hiep_123
 # Admin User:
 Username: NhuongHoang123@gmail<br>
 Password: NhuongHoang_123
+
+# Install Project
+<code>npm install</code>
